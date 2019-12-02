@@ -1,0 +1,6 @@
+framework module Pods_XJButton_XJButtonUITests {
+  umbrella header "Pods-XJButton-XJButtonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4945FE36D0361D9340F502BD /* Pods_XJButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0127B1BD44D2DB977C3A4B /* Pods_XJButton.framework */; };
+		4CD514914102C9EA88D55DA1 /* Pods_XJButton_XJButtonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C328230E0D58B4129C60077 /* Pods_XJButton_XJButtonUITests.framework */; };
+		87B6EE66AF7A75FF6BFEE141 /* Pods_XJButtonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5991A7F6455171B33BD55802 /* Pods_XJButtonTests.framework */; };
+		95C136212394DA2100943510 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C136202394DA2100943510 /* AppDelegate.m */; };
+		95C136242394DA2100943510 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C136232394DA2100943510 /* SceneDelegate.m */; };
+		95C136272394DA2100943510 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C136262394DA2100943510 /* ViewController.m */; };
+		95C1362A2394DA2100943510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C136282394DA2100943510 /* Main.storyboard */; };
+		95C1362C2394DA2300943510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C1362B2394DA2300943510 /* Assets.xcassets */; };
+		95C1362F2394DA2400943510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C1362D2394DA2400943510 /* LaunchScreen.storyboard */; };
+		95C136322394DA2400943510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C136312394DA2400943510 /* main.m */; };
+		95C1363C2394DA2400943510 /* XJButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C1363B2394DA2400943510 /* XJButtonTests.m */; };
+		95C136472394DA2400943510 /* XJButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C136462394DA2400943510 /* XJButtonUITests.m */; };
+		95C136572394F09800943510 /* XJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C136562394F09700943510 /* XJButton.m */; };
+		95C1365A2394F56400943510 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C136592394F56400943510 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95C136382394DA2400943510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C136142394DA2100943510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C1361B2394DA2100943510;
+			remoteInfo = XJButton;
+		};
+		95C136432394DA2400943510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C136142394DA2100943510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C1361B2394DA2100943510;
+			remoteInfo = XJButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D604422A8F21DA080F5602 /* Pods-XJButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJButton.debug.xcconfig"; path = "Target Support Files/Pods-XJButton/Pods-XJButton.debug.xcconfig"; sourceTree = "<group>"; };
+		0B0DC0D8D86055C857535096 /* Pods-XJButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJButtonTests.release.xcconfig"; path = "Target Support Files/Pods-XJButtonTests/Pods-XJButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		2826443D06FF766392752AC0 /* Pods-XJButton-XJButtonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJButton-XJButtonUITests.debug.xcconfig"; path = "Target Support Files/Pods-XJButton-XJButtonUITests/Pods-XJButton-XJButtonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C7076F9BA4CCAD5E4219BEA /* Pods-XJButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJButton.release.xcconfig"; path = "Target Support Files/Pods-XJButton/Pods-XJButton.release.xcconfig"; sourceTree = "<group>"; };
+		5991A7F6455171B33BD55802 /* Pods_XJButtonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJButtonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C328230E0D58B4129C60077 /* Pods_XJButton_XJButtonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJButton_XJButtonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C1361C2394DA2100943510 /* XJButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C1361F2394DA2100943510 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95C136202394DA2100943510 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95C136222394DA2100943510 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		95C136232394DA2100943510 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		95C136252394DA2100943510 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95C136262394DA2100943510 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95C136292394DA2100943510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95C1362B2394DA2300943510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95C1362E2394DA2400943510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95C136302394DA2400943510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C136312394DA2400943510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95C136372394DA2400943510 /* XJButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C1363B2394DA2400943510 /* XJButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJButtonTests.m; sourceTree = "<group>"; };
+		95C1363D2394DA2400943510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C136422394DA2400943510 /* XJButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C136462394DA2400943510 /* XJButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJButtonUITests.m; sourceTree = "<group>"; };
+		95C136482394DA2400943510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C136552394F09700943510 /* XJButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJButton.h; sourceTree = "<group>"; };
+		95C136562394F09700943510 /* XJButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJButton.m; sourceTree = "<group>"; };
+		95C136582394F56300943510 /* XJButton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XJButton-Bridging-Header.h"; sourceTree = "<group>"; };
+		95C136592394F56400943510 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		9E0127B1BD44D2DB977C3A4B /* Pods_XJButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B985A4A85DD37F6A44250B14 /* Pods-XJButton-XJButtonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJButton-XJButtonUITests.release.xcconfig"; path = "Target Support Files/Pods-XJButton-XJButtonUITests/Pods-XJButton-XJButtonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD9A784009C3EE405A1B9847 /* Pods-XJButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJButtonTests.debug.xcconfig"; path = "Target Support Files/Pods-XJButtonTests/Pods-XJButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C136192394DA2100943510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4945FE36D0361D9340F502BD /* Pods_XJButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C136342394DA2400943510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B6EE66AF7A75FF6BFEE141 /* Pods_XJButtonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1363F2394DA2400943510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD514914102C9EA88D55DA1 /* Pods_XJButton_XJButtonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95C136132394DA2100943510 = {
+			isa = PBXGroup;
+			children = (
+				95C1361E2394DA2100943510 /* XJButton */,
+				95C1363A2394DA2400943510 /* XJButtonTests */,
+				95C136452394DA2400943510 /* XJButtonUITests */,
+				95C1361D2394DA2100943510 /* Products */,
+				C2BEC6D30F487A4FC0C5B13E /* Pods */,
+				AF947BF7F4460667B432BF8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95C1361D2394DA2100943510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95C1361C2394DA2100943510 /* XJButton.app */,
+				95C136372394DA2400943510 /* XJButtonTests.xctest */,
+				95C136422394DA2400943510 /* XJButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C1361E2394DA2100943510 /* XJButton */ = {
+			isa = PBXGroup;
+			children = (
+				95C1361F2394DA2100943510 /* AppDelegate.h */,
+				95C136202394DA2100943510 /* AppDelegate.m */,
+				95C136222394DA2100943510 /* SceneDelegate.h */,
+				95C136232394DA2100943510 /* SceneDelegate.m */,
+				95C136252394DA2100943510 /* ViewController.h */,
+				95C136262394DA2100943510 /* ViewController.m */,
+				95C136592394F56400943510 /* File.swift */,
+				95C136542394F06B00943510 /* XJButton */,
+				95C136282394DA2100943510 /* Main.storyboard */,
+				95C1362B2394DA2300943510 /* Assets.xcassets */,
+				95C1362D2394DA2400943510 /* LaunchScreen.storyboard */,
+				95C136302394DA2400943510 /* Info.plist */,
+				95C136312394DA2400943510 /* main.m */,
+				95C136582394F56300943510 /* XJButton-Bridging-Header.h */,
+			);
+			path = XJButton;
+			sourceTree = "<group>";
+		};
+		95C1363A2394DA2400943510 /* XJButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				95C1363B2394DA2400943510 /* XJButtonTests.m */,
+				95C1363D2394DA2400943510 /* Info.plist */,
+			);
+			path = XJButtonTests;
+			sourceTree = "<group>";
+		};
+		95C136452394DA2400943510 /* XJButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95C136462394DA2400943510 /* XJButtonUITests.m */,
+				95C136482394DA2400943510 /* Info.plist */,
+			);
+			path = XJButtonUITests;
+			sourceTree = "<group>";
+		};
+		95C136542394F06B00943510 /* XJButton */ = {
+			isa = PBXGroup;
+			children = (
+				95C136552394F09700943510 /* XJButton.h */,
+				95C136562394F09700943510 /* XJButton.m */,
+			);
+			path = XJButton;
+			sourceTree = "<group>";
+		};
+		AF947BF7F4460667B432BF8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E0127B1BD44D2DB977C3A4B /* Pods_XJButton.framework */,
+				7C328230E0D58B4129C60077 /* Pods_XJButton_XJButtonUITests.framework */,
+				5991A7F6455171B33BD55802 /* Pods_XJButtonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2BEC6D30F487A4FC0C5B13E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08D604422A8F21DA080F5602 /* Pods-XJButton.debug.xcconfig */,
+				3C7076F9BA4CCAD5E4219BEA /* Pods-XJButton.release.xcconfig */,
+				2826443D06FF766392752AC0 /* Pods-XJButton-XJButtonUITests.debug.xcconfig */,
+				B985A4A85DD37F6A44250B14 /* Pods-XJButton-XJButtonUITests.release.xcconfig */,
+				BD9A784009C3EE405A1B9847 /* Pods-XJButtonTests.debug.xcconfig */,
+				0B0DC0D8D86055C857535096 /* Pods-XJButtonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95C1361B2394DA2100943510 /* XJButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C1364B2394DA2400943510 /* Build configuration list for PBXNativeTarget "XJButton" */;
+			buildPhases = (
+				BEF5E7E4A4E7BA67A37649B2 /* [CP] Check Pods Manifest.lock */,
+				95C136182394DA2100943510 /* Sources */,
+				95C136192394DA2100943510 /* Frameworks */,
+				95C1361A2394DA2100943510 /* Resources */,
+				DF845020B96D1A003A97EE99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJButton;
+			productName = XJButton;
+			productReference = 95C1361C2394DA2100943510 /* XJButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95C136362394DA2400943510 /* XJButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C1364E2394DA2400943510 /* Build configuration list for PBXNativeTarget "XJButtonTests" */;
+			buildPhases = (
+				4C2F7CBBF5BDA576C9F9EBA3 /* [CP] Check Pods Manifest.lock */,
+				95C136332394DA2400943510 /* Sources */,
+				95C136342394DA2400943510 /* Frameworks */,
+				95C136352394DA2400943510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95C136392394DA2400943510 /* PBXTargetDependency */,
+			);
+			name = XJButtonTests;
+			productName = XJButtonTests;
+			productReference = 95C136372394DA2400943510 /* XJButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95C136412394DA2400943510 /* XJButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C136512394DA2400943510 /* Build configuration list for PBXNativeTarget "XJButtonUITests" */;
+			buildPhases = (
+				505E27596C4A327D3C763F9A /* [CP] Check Pods Manifest.lock */,
+				95C1363E2394DA2400943510 /* Sources */,
+				95C1363F2394DA2400943510 /* Frameworks */,
+				95C136402394DA2400943510 /* Resources */,
+				3E0F52DD18A5A48E83E666DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95C136442394DA2400943510 /* PBXTargetDependency */,
+			);
+			name = XJButtonUITests;
+			productName = XJButtonUITests;
+			productReference = 95C136422394DA2400943510 /* XJButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95C136142394DA2100943510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "薛健";
+				TargetAttributes = {
+					95C1361B2394DA2100943510 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					95C136362394DA2400943510 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 95C1361B2394DA2100943510;
+					};
+					95C136412394DA2400943510 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 95C1361B2394DA2100943510;
+					};
+				};
+			};
+			buildConfigurationList = 95C136172394DA2100943510 /* Build configuration list for PBXProject "XJButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95C136132394DA2100943510;
+			productRefGroup = 95C1361D2394DA2100943510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95C1361B2394DA2100943510 /* XJButton */,
+				95C136362394DA2400943510 /* XJButtonTests */,
+				95C136412394DA2400943510 /* XJButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95C1361A2394DA2100943510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C1362F2394DA2400943510 /* LaunchScreen.storyboard in Resources */,
+				95C1362C2394DA2300943510 /* Assets.xcassets in Resources */,
+				95C1362A2394DA2100943510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C136352394DA2400943510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C136402394DA2400943510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E0F52DD18A5A48E83E666DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XJButton-XJButtonUITests/Pods-XJButton-XJButtonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XJButton-XJButtonUITests/Pods-XJButton-XJButtonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XJButton-XJButtonUITests/Pods-XJButton-XJButtonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C2F7CBBF5BDA576C9F9EBA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XJButtonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		505E27596C4A327D3C763F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XJButton-XJButtonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF5E7E4A4E7BA67A37649B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XJButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF845020B96D1A003A97EE99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XJButton/Pods-XJButton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XJButton/Pods-XJButton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XJButton/Pods-XJButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95C136182394DA2100943510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C136272394DA2100943510 /* ViewController.m in Sources */,
+				95C1365A2394F56400943510 /* File.swift in Sources */,
+				95C136572394F09800943510 /* XJButton.m in Sources */,
+				95C136212394DA2100943510 /* AppDelegate.m in Sources */,
+				95C136322394DA2400943510 /* main.m in Sources */,
+				95C136242394DA2100943510 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C136332394DA2400943510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C1363C2394DA2400943510 /* XJButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1363E2394DA2400943510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C136472394DA2400943510 /* XJButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95C136392394DA2400943510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95C1361B2394DA2100943510 /* XJButton */;
+			targetProxy = 95C136382394DA2400943510 /* PBXContainerItemProxy */;
+		};
+		95C136442394DA2400943510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95C1361B2394DA2100943510 /* XJButton */;
+			targetProxy = 95C136432394DA2400943510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95C136282394DA2100943510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C136292394DA2100943510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95C1362D2394DA2400943510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C1362E2394DA2400943510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95C136492394DA2400943510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95C1364A2394DA2400943510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95C1364C2394DA2400943510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D604422A8F21DA080F5602 /* Pods-XJButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.XJButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XJButton/XJButton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95C1364D2394DA2400943510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7076F9BA4CCAD5E4219BEA /* Pods-XJButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.XJButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XJButton/XJButton-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95C1364F2394DA2400943510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9A784009C3EE405A1B9847 /* Pods-XJButtonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.XJButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJButton.app/XJButton";
+			};
+			name = Debug;
+		};
+		95C136502394DA2400943510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0DC0D8D86055C857535096 /* Pods-XJButtonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.XJButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJButton.app/XJButton";
+			};
+			name = Release;
+		};
+		95C136522394DA2400943510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2826443D06FF766392752AC0 /* Pods-XJButton-XJButtonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.XJButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XJButton;
+			};
+			name = Debug;
+		};
+		95C136532394DA2400943510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B985A4A85DD37F6A44250B14 /* Pods-XJButton-XJButtonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xj.XJButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XJButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95C136172394DA2100943510 /* Build configuration list for PBXProject "XJButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C136492394DA2400943510 /* Debug */,
+				95C1364A2394DA2400943510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C1364B2394DA2400943510 /* Build configuration list for PBXNativeTarget "XJButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C1364C2394DA2400943510 /* Debug */,
+				95C1364D2394DA2400943510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C1364E2394DA2400943510 /* Build configuration list for PBXNativeTarget "XJButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C1364F2394DA2400943510 /* Debug */,
+				95C136502394DA2400943510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C136512394DA2400943510 /* Build configuration list for PBXNativeTarget "XJButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C136522394DA2400943510 /* Debug */,
+				95C136532394DA2400943510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95C136142394DA2100943510 /* Project object */;
+}
